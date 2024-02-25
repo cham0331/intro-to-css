@@ -33,17 +33,28 @@ text-decoration: none;
   background-color: #000;
 color: #DEC9E9;
 }
-.wrapper img {
+/* .wrapper img {
   width: 150px;
 border-radius: 50%;
 filter: grayscale(100%);
 margin-top: 1em;
-}
+} */
 
 li:nth-child(even) {
   color: #dc33dc;
 }
-main img {
+main > img {
   width: 100%;
 }
 
+article > img{
+  width: 150px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  margin-top: 1em;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
